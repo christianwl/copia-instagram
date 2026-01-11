@@ -1,6 +1,6 @@
 import './Feed.css'
 
-import Post from './Post/Post.js'
+import Post from './Post/Post'
 
 import perfil1 from '../../img/Perfil2.png';
 import perfil2 from '../../img/emojiDeUrso.png'

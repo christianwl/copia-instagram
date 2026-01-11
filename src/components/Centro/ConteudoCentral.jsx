@@ -1,6 +1,6 @@
-import Stories from './Stories.js'
+import Stories from './Stories'
 import './conteudoCentral.css'
-import Feed from './Feed.js'
+import Feed from './Feed'
 
 
 export default function ConteudoCentral() {

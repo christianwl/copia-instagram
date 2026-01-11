@@ -15,7 +15,10 @@ Contador de likes funcional.
 
 As técnicas e tecnologias utilizadas pra isso são:
 
-- `React/Node.js`: plataforma feita utilizando React/Node.js
+- `React`: plataforma feita utilizando React
+- `Vite`: Ferramenta de build utilizada para o desenvolvimento do projeto, oferecendo inicialização rápida, hot reload eficiente e um processo de build mais otimizado em comparação ao Create React App.
+- `pnpm`: Gerenciador de pacotes utilizado no projeto, conhecido por sua performance e uso eficiente de espaço em disco, garantindo instalações mais rápidas e consistentes das dependências.
+
 - `CSS`: Todas as animações foram feitas utilizando CSS
 - `:hover( )`: Pseudo-classe usada na maioria das animações para verificar se o mouse estava em cima do elemento
 - `transform: scale( )`: Função do CSS utilizada para fazer animação de ícones se expandindo.
@@ -38,9 +41,9 @@ https://github.com/Christian-Rui/copia-instagram/assets/113655013/5574bc84-f690-
 
 ## 📁 Acesso ao projeto
 
-Você pode [baixá-lo](https://github.com/Christian-Rui/copia-instagram/archive/refs/heads/main.zip).
+Você pode baixa-lo [clicando aqui!](https://github.com/christianwl/copia-instagram/archive/refs/heads/main.zip)
 
-## 🛠️ Abrir e rodar o projeto
+<!-- ## 🛠️ Abrir e rodar o projeto
 
 Após baixar o projeto, bocê pode descompacta-lo, e usar ele no Visual Code (ou alguma opção similar) seguindo esses passos:
 
@@ -49,9 +52,12 @@ Após baixar o projeto, bocê pode descompacta-lo, e usar ele no Visual Code (ou
 - Clique em OK
 - Abra o terminal
 - Digite "npm i" para instalar os pacotes necessários e clique em Enter
-- Após completar a instalação, você pode testar digitando no terminal "npm start" e por fim clicando Enter
+- Após completar a instalação, você pode testar digitando no terminal "npm start" e por fim clicando Enter -->
 
-# Time
+## Autor
 
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/113655013?v=4" width=115><br><sub>Christian Rui</sub>](https://github.com/Christian-Rui)
-| :---: |
+<div>
+  <a href="https://github.com/christianwl">
+    <img src="https://contrib.rocks/image?repo=christianwl/copia-instagram" alt="foto do(s) autor(es)"/>
+  </a>
+</div>

@@ -1,6 +1,6 @@
 import './conteudoLateralDireita.css';
 
-import Perfils from './Perfils.js';
+import Perfils from './Perfils';
 
 import perfil from '../../img/Perfil2.png';
 import sugestao1 from '../../img/Capipurple.png';
