@@ -1,11 +1,11 @@
 import Perfils from './Perfils';
 
-import perfil from '@/assets/img/Perfil2.png';
-import sugestao1 from '@/assets/img/Capipurple.png';
-import sugestao2 from '@/assets/img/ingrid_ihaaa.png';
-import sugestao3 from '@/assets/img/junjun_ly.png';
-import sugestao4 from '@/assets/img/kaaaaatchau.png';
-import sugestao5 from '@/assets/img/nao_e_gustavo.png';
+import perfil from '@/assets/img/perfis/Perfil2.png';
+import sugestao1 from '@/assets/img/perfis/Capipurple.png';
+import sugestao2 from '@/assets/img/perfis/ingrid_ihaaa.png';
+import sugestao3 from '@/assets/img/perfis/junjun_ly.png';
+import sugestao4 from '@/assets/img/perfis/kaaaaatchau.png';
+import sugestao5 from '@/assets/img/perfis/nao_e_gustavo.png';
 
 import './conteudoLateralDireita.css';
 
@@ -45,8 +45,9 @@ export default function ConteudoLateralDireita() {
                 <p className='sugestoes'>Sugestões para você</p>
                 <p className='btn_branco'>Ver tudo</p>
             </div>
-            {listaPerfils.map(objeto =>
+            {listaPerfils.map((objeto, index)=>
                 <Perfils
+                    key={index}
                     img={objeto.imagem}
                     nome={objeto.nome}
                     subDescricao="Sugestões para você"

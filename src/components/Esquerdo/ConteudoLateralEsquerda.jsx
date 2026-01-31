@@ -9,8 +9,8 @@ import { GoHeart } from "react-icons/go";
 import { CgAddR } from "react-icons/cg";
 import { RiMenuLine } from "react-icons/ri";
 
-import logo from '@/assets/img/instaLogo.png';
-import perfil from '@/assets/img/Perfil2.png';
+import logo from '@/assets/img/logo/instaLogo.png';
+import perfil from '@/assets/img/perfis/Perfil2.png';
 
 import './ConteudoLateralEsquerda.css'
 

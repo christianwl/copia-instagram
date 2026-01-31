@@ -43,7 +43,8 @@ https://github.com/Christian-Rui/copia-instagram/assets/113655013/5574bc84-f690-
 
 Você pode baixa-lo [clicando aqui!](https://github.com/christianwl/copia-instagram/archive/refs/heads/main.zip)
 
-<!-- ## 🛠️ Abrir e rodar o projeto
+<!-- 
+## 🛠️ Abrir e rodar o projeto
 
 Após baixar o projeto, bocê pode descompacta-lo, e usar ele no Visual Code (ou alguma opção similar) seguindo esses passos:
 
@@ -51,8 +52,8 @@ Após baixar o projeto, bocê pode descompacta-lo, e usar ele no Visual Code (ou
 - Procure o local onde o projeto está e o selecione (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo)
 - Clique em OK
 - Abra o terminal
-- Digite "npm i" para instalar os pacotes necessários e clique em Enter
-- Após completar a instalação, você pode testar digitando no terminal "npm start" e por fim clicando Enter -->
+- Digite "pnpm i" para instalar os pacotes necessários
+- Após completar a instalação, você pode testar digitando no terminal "pnpm dev" -->
 
 ## Autor
 

@@ -1,11 +1,11 @@
 import Post from './Post/Post'
 
-import perfil1 from '@/assets/img/Perfil2.png';
-import perfil2 from '@/assets/img/emojiDeUrso.png'
-import perfil3 from '@/assets/img/polo.jpg'
-import post1 from '@/assets/img/Post1.jpg';
-import post2 from '@/assets/img/Post3.jpg';
-import post3 from '@/assets/img/Post4.jpg';
+import perfil1 from '@/assets/img/perfis/Perfil2.png';
+import perfil2 from '@/assets/img/perfis/emojiDeUrso.png'
+import perfil3 from '@/assets/img/perfis/polo.jpg'
+import post1 from '@/assets/img/postagens/Post1.jpg';
+import post2 from '@/assets/img/postagens/Post3.jpg';
+import post3 from '@/assets/img/postagens/Post4.jpg';
 
 import './Feed.css'
 
@@ -42,8 +42,9 @@ const listaPosts = [
 export default function Feed(){
     return(
         <div className='Feed'>
-            {listaPosts.map((objeto) => (
+            {listaPosts.map((objeto, index) => (
                 <Post
+                key={index}
                 logado='bearlykkk'
                 perfil={objeto.foto}
                 fundoColorido={objeto.fundo}

@@ -1,12 +1,12 @@
 import Story from './Story'
 
-import perfil1 from '@/assets/img/Perfil1.jpg';
-import perfil2 from '@/assets/img/Perfil2.png';
-import perfil3 from '@/assets/img/Perfil3.png';
-import perfil4 from '@/assets/img/Perfil4.png';
-import perfil5 from '@/assets/img/Perfil6.png';
-import perfil6 from '@/assets/img/Perfil5.png';
-import perfil7 from '@/assets/img/Perfil7.png';
+import perfil1 from '@/assets/img/perfis/Perfil1.jpg';
+import perfil2 from '@/assets/img/perfis/Perfil2.png';
+import perfil3 from '@/assets/img/perfis/Perfil3.png';
+import perfil4 from '@/assets/img/perfis/Perfil4.png';
+import perfil5 from '@/assets/img/perfis/Perfil6.png';
+import perfil6 from '@/assets/img/perfis/Perfil5.png';
+import perfil7 from '@/assets/img/perfis/Perfil7.png';
 
 import './Stories.css'
 
@@ -69,8 +69,8 @@ export default function Stories() {
     return (
         <div className="Stories">
             {
-            listaUsuario.map((usuario) => {
-                return <Story caminhoDaImagem={usuario.url} nomeUsuario={usuario.nome} />
+            listaUsuario.map((usuario, index) => {
+                return <Story key={index} caminhoDaImagem={usuario.url} nomeUsuario={usuario.nome} />
             })
             }
         </div>
