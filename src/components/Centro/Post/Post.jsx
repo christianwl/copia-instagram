@@ -1,7 +1,5 @@
-import './Post.css'
-
 import { useState } from 'react';
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import Picker from 'emoji-picker-react';
 
 import { BsThreeDots } from "react-icons/bs";
@@ -11,6 +9,8 @@ import { TbMessageCircle } from "react-icons/tb";
 import { HiOutlinePaperAirplane } from "react-icons/hi";
 import { BiBookmark } from "react-icons/bi";
 import { GoSmiley } from "react-icons/go";
+
+import './Post.css'
 
 export default function Post(props) {
     const [likes, setLikes] = useState(true);

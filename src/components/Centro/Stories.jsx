@@ -1,14 +1,14 @@
 import Story from './Story'
 
-import './Stories.css'
+import perfil1 from '@/assets/img/Perfil1.jpg';
+import perfil2 from '@/assets/img/Perfil2.png';
+import perfil3 from '@/assets/img/Perfil3.png';
+import perfil4 from '@/assets/img/Perfil4.png';
+import perfil5 from '@/assets/img/Perfil6.png';
+import perfil6 from '@/assets/img/Perfil5.png';
+import perfil7 from '@/assets/img/Perfil7.png';
 
-import perfil1 from '../../img/Perfil1.jpg';
-import perfil2 from '../../img/Perfil2.png';
-import perfil3 from '../../img/Perfil3.png';
-import perfil4 from '../../img/Perfil4.png';
-import perfil5 from '../../img/Perfil6.png';
-import perfil6 from '../../img/Perfil5.png';
-import perfil7 from '../../img/Perfil7.png';
+import './Stories.css'
 
 var listaUsuario = [
     // {

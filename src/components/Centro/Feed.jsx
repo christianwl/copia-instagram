@@ -1,13 +1,13 @@
-import './Feed.css'
-
 import Post from './Post/Post'
 
-import perfil1 from '../../img/Perfil2.png';
-import perfil2 from '../../img/emojiDeUrso.png'
-import perfil3 from '../../img/polo.jpg'
-import post1 from '../../img/Post1.jpg';
-import post2 from '../../img/Post3.jpg';
-import post3 from '../../img/Post4.jpg';
+import perfil1 from '@/assets/img/Perfil2.png';
+import perfil2 from '@/assets/img/emojiDeUrso.png'
+import perfil3 from '@/assets/img/polo.jpg'
+import post1 from '@/assets/img/Post1.jpg';
+import post2 from '@/assets/img/Post3.jpg';
+import post3 from '@/assets/img/Post4.jpg';
+
+import './Feed.css'
 
 
 const listaPosts = [

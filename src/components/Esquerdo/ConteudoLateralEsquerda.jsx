@@ -1,6 +1,4 @@
-import logo from '../../img/instaLogo.png';
 import Menu from './TextMenu';
-import './ConteudoLateralEsquerda.css'
 
 import { GoHomeFill } from "react-icons/go";
 import { IoSearch } from "react-icons/io5";
@@ -11,7 +9,10 @@ import { GoHeart } from "react-icons/go";
 import { CgAddR } from "react-icons/cg";
 import { RiMenuLine } from "react-icons/ri";
 
-import perfil from '../../img/Perfil2.png';
+import logo from '@/assets/img/instaLogo.png';
+import perfil from '@/assets/img/Perfil2.png';
+
+import './ConteudoLateralEsquerda.css'
 
 
 export default function ConteudoLateralEsquerda() {

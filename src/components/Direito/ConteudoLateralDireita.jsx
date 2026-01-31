@@ -1,13 +1,13 @@
-import './conteudoLateralDireita.css';
-
 import Perfils from './Perfils';
 
-import perfil from '../../img/Perfil2.png';
-import sugestao1 from '../../img/Capipurple.png';
-import sugestao2 from '../../img/ingrid_ihaaa.png';
-import sugestao3 from '../../img/junjun_ly.png';
-import sugestao4 from '../../img/kaaaaatchau.png';
-import sugestao5 from '../../img/nao_e_gustavo.png';
+import perfil from '@/assets/img/Perfil2.png';
+import sugestao1 from '@/assets/img/Capipurple.png';
+import sugestao2 from '@/assets/img/ingrid_ihaaa.png';
+import sugestao3 from '@/assets/img/junjun_ly.png';
+import sugestao4 from '@/assets/img/kaaaaatchau.png';
+import sugestao5 from '@/assets/img/nao_e_gustavo.png';
+
+import './conteudoLateralDireita.css';
 
 const listaPerfils = [
     {
