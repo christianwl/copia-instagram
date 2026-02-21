@@ -1,54 +1,55 @@
 .conteudoLateralDireita {
-    padding-top: 2.3%;
+  padding-top: 2.3%;
 }
 
 .sugestoes {
-    color: rgb(187, 187, 187);
-    font-size: 14px;
-    font-weight: 600;
+  color: rgb(187, 187, 187);
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .btn_branco {
-    color: white;
-    font-size: 12px;
-    font-weight: 600;
-    margin-left: auto;
-    cursor: pointer;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: auto;
+  cursor: pointer;
 }
 
 .btn_branco:hover {
-    color: gray;
+  color: gray;
 }
 
 .container_sugestoes {
-    display: flex;
-    align-items: center;
-    margin-right: 33%;
-    margin-left: 2.5%;
-    padding-bottom: 3%;
-    padding-top: 1%;
+  display: flex;
+  align-items: center;
+  margin-right: 33%;
+  margin-left: 2.5%;
+  padding-bottom: 3%;
+  padding-top: 1%;
 }
 
 .footer {
-    display: flex;
-    flex-flow: wrap;
-    margin-right: 36%;
-    margin-left: 2.5%;
-    padding-top: 3.5%;
-    column-gap: 0.2rem;
+  display: flex;
+  flex-flow: wrap;
+  margin-right: 36%;
+  margin-left: 2.5%;
+  padding-top: 3.5%;
+  column-gap: 0.2rem;
 }
 
-.footer a, .footer div {
-    font-size: 0.75rem;
-    line-height: 1.2rem;
-    color: gray;
+.footer a,
+.footer div {
+  font-size: 0.75rem;
+  line-height: 1.2rem;
+  color: gray;
 }
 
 .footer div {
-    margin-top: 2vh;
+  margin-top: 2vh;
 }
 
 .footer a span:hover {
-    text-decoration-line: underline;
-    cursor: pointer;
+  text-decoration-line: underline;
+  cursor: pointer;
 }

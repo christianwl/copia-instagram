@@ -6,7 +6,6 @@ body {
   display: flex;
   flex-direction: row;
   height: 100vh;
-  
 }
 
 .conteudoLateralDireita,
@@ -19,19 +18,17 @@ body {
 
 .conteudoLateralEsquerda {
   display: flex;
-  width:16vw;
+  width: 16vw;
   line-height: 20px;
-  
 }
 
 .conteudoLateralDireita {
   background: black;
-  width:30vw;
+  width: 30vw;
   right: 0;
 }
 
 .conteudoCentral {
-  width:56vw;
+  width: 56vw;
   background-color: black;
 }
-

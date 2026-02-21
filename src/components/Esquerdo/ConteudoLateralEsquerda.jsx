@@ -1,4 +1,4 @@
-import Menu from './TextMenu';
+import Menu from "./TextMenu";
 
 import { GoHomeFill } from "react-icons/go";
 import { IoSearch } from "react-icons/io5";
@@ -9,78 +9,141 @@ import { GoHeart } from "react-icons/go";
 import { CgAddR } from "react-icons/cg";
 import { RiMenuLine } from "react-icons/ri";
 
-import logo from '@/assets/img/logo/instaLogo.png';
-import perfil from '@/assets/img/perfis/Perfil2.png';
+import instaLogo from "@/assets/img/logo/insta-logo.png";
+import user2 from "@/assets/img/perfis/user-2.png";
 
-import './ConteudoLateralEsquerda.css'
-
+import "./ConteudoLateralEsquerda.css";
 
 export default function ConteudoLateralEsquerda() {
-    var tamanhoIcon = 27;
-    var corIcon = 'White';
+  var tamanhoIcon = 27;
+  var corIcon = "White";
 
-    return (
-        <div className='conteudoLateralEsquerda'>
-            <img src={logo} alt='Logo' />
+  return (
+    <div className="conteudoLateralEsquerda">
+      <img src={instaLogo} alt="Logo" />
 
-            <ul>
-                <Menu nome="Página Inicial" classe="text-menu" icone={<GoHomeFill style={{
-                    fontSize: tamanhoIcon,
-                    color: corIcon,
-                }} />} />
+      <ul>
+        <Menu
+          nome="Página Inicial"
+          classe="text-menu"
+          icone={
+            <GoHomeFill
+              style={{
+                fontSize: tamanhoIcon,
+                color: corIcon,
+              }}
+            />
+          }
+        />
 
-                <Menu nome="Pesquisa" classe="text-menu" icone={<IoSearch style={{
-                    fontSize: tamanhoIcon,
-                    color: corIcon,
-                }} />} />
+        <Menu
+          nome="Pesquisa"
+          classe="text-menu"
+          icone={
+            <IoSearch
+              style={{
+                fontSize: tamanhoIcon,
+                color: corIcon,
+              }}
+            />
+          }
+        />
 
-                <Menu nome="Explorar" classe="text-menu" icone={<MdOutlineExplore style={{
-                    fontSize: tamanhoIcon,
-                    color: corIcon,
-                }} />} />
+        <Menu
+          nome="Explorar"
+          classe="text-menu"
+          icone={
+            <MdOutlineExplore
+              style={{
+                fontSize: tamanhoIcon,
+                color: corIcon,
+              }}
+            />
+          }
+        />
 
-                <Menu nome="Reels" classe="text-menu" icone={<CgClapperBoard style={{
-                    fontSize: tamanhoIcon,
-                    color: corIcon,
-                }} />} />
+        <Menu
+          nome="Reels"
+          classe="text-menu"
+          icone={
+            <CgClapperBoard
+              style={{
+                fontSize: tamanhoIcon,
+                color: corIcon,
+              }}
+            />
+          }
+        />
 
-                <Menu nome="Mensagens" classe="text-menu" icone={<HiOutlinePaperAirplane style={{
-                    fontSize: 25,
-                    color: corIcon,
-                    marginLeft: '2px',
-                    marginBottom: '8px'
-                }} className='rotate-icon' />} />
+        <Menu
+          nome="Mensagens"
+          classe="text-menu"
+          icone={
+            <HiOutlinePaperAirplane
+              style={{
+                fontSize: 25,
+                color: corIcon,
+                marginLeft: "2px",
+                marginBottom: "8px",
+              }}
+              className="rotate-icon"
+            />
+          }
+        />
 
-                
+        <Menu
+          nome="Notificações"
+          classe="text-menu"
+          icone={
+            <GoHeart
+              style={{
+                fontSize: tamanhoIcon,
+                color: corIcon,
+              }}
+            />
+          }
+        />
 
-                <Menu nome="Notificações" classe="text-menu" icone={<GoHeart style={{
-                    fontSize: tamanhoIcon,
-                    color: corIcon,
-                }} />} />
+        <Menu
+          nome="Criar"
+          classe="text-menu"
+          icone={
+            <CgAddR
+              style={{
+                fontSize: tamanhoIcon,
+                color: corIcon,
+              }}
+            />
+          }
+        />
 
-                <Menu nome="Criar" classe="text-menu" icone={<CgAddR style={{
-                    fontSize: tamanhoIcon,
-                    color: corIcon,
-                }} />} />
+        <li className="text-menu">
+          <img
+            src={user2}
+            style={{
+              borderRadius: "50%",
+              width: "25px",
+              height: "25px",
+            }}
+          ></img>
+          <p>Perfil</p>
+        </li>
 
-                <li className='text-menu'>
-                    <img src={perfil} style={{
-                        borderRadius: '50%',
-                        width: '25px',
-                        height: '25px'
-                    }}></img>
-                    <p>Perfil</p>
-                </li>
-            
-                <Menu nome="Mais" classe="text-menu" icone={<RiMenuLine style={{
-                    fontSize: tamanhoIcon,
-                    color: corIcon,
-                }} />} />
-
-
-            </ul>
-        </div>
-    )
+        <Menu
+          nome="Mais"
+          classe="text-menu"
+          icone={
+            <RiMenuLine
+              style={{
+                fontSize: tamanhoIcon,
+                color: corIcon,
+              }}
+            />
+          }
+        />
+      </ul>
+    </div>
+  );
 }
 
 // export default ConteudoLateralEsquerda;

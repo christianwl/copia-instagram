@@ -1,78 +1,82 @@
-import Story from './Story'
+import Story from "./Story";
 
-import perfil1 from '@/assets/img/perfis/Perfil1.jpg';
-import perfil2 from '@/assets/img/perfis/Perfil2.png';
-import perfil3 from '@/assets/img/perfis/Perfil3.png';
-import perfil4 from '@/assets/img/perfis/Perfil4.png';
-import perfil5 from '@/assets/img/perfis/Perfil6.png';
-import perfil6 from '@/assets/img/perfis/Perfil5.png';
-import perfil7 from '@/assets/img/perfis/Perfil7.png';
+import user1 from "@/assets/img/perfis/user-1.jpg";
+import user2 from "@/assets/img/perfis/user-2.png";
+import user3 from "@/assets/img/perfis/user-3.png";
+import user4 from "@/assets/img/perfis/user-4.png";
+import user5 from "@/assets/img/perfis/user-5.png";
+import user6 from "@/assets/img/perfis/user-6.png";
+import user7 from "@/assets/img/perfis/user-7.png";
 
-import './Stories.css'
+import "./Stories.css";
 
 var listaUsuario = [
-    // {
-    //     nome: 'Gabs',
-    //     url: 'https://avatars.githubusercontent.com/u/48858978?v=4'
-    // },
-    // {
-    //     nome: 'Bosak',
-    //     url: 'https://s2-oglobo.glbimg.com/TBHKF5iXMhHB2JEzL8iVEMRQshU=/0x0:439x273/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2023/U/C/V9PkuMSEu3hQDv1bzUmg/screenshot-201.png'
-    // },
-    // {
-    //     nome: 'Erik',
-    //     url: 'https://i.pinimg.com/originals/e3/db/38/e3db3867fe6ea9484ca7c2ec599ddb2b.jpg'
-    // },
-    // {
-    //     nome: 'Gretzel',
-    //     url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMtVfgiKNu0Rm4TVZfEGO1-DeN4mxiaeUG_Lh7UHv1Fw&s'
-    // },
-    // {
-    //     nome: 'Eduardo',
-    //     url: 'https://www.gatogeek.com.br/cdn/shop/products/urso-cabecudinho-pelucia-engracada-pelucia-gatogeek-990691.jpg?v=1683867912'
-    // },
-    // {
-    //     nome: 'RuiRui',
-    //     url: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/4a/aa/d4/4aaad43e-7835-d5d1-2640-1aaba9b1af2f/0.jpg/800x800cc.jpg'
-    // }
-    {
-        nome: 'bearlyKKK',
-        url: perfil2      
-    },
-    {
-        nome: 'ruirui',
-        url: perfil1
-    }, 
-    {
-        nome: 'catJun',
-        url: perfil3
-    }, 
-    {
-        nome: 'gret_flor',
-        url: perfil4
-    }, 
-    {
-        nome: 'dudu_auau',
-        url: perfil5
-    }, 
-    {
-        nome: 'gabs_',
-        url: perfil6
-    }, 
-    {
-        nome: 'rogerio',
-        url: perfil7
-    },  
-
+  // {
+  //     nome: 'Gabs',
+  //     url: 'https://avatars.githubusercontent.com/u/48858978?v=4'
+  // },
+  // {
+  //     nome: 'Bosak',
+  //     url: 'https://s2-oglobo.glbimg.com/TBHKF5iXMhHB2JEzL8iVEMRQshU=/0x0:439x273/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2023/U/C/V9PkuMSEu3hQDv1bzUmg/screenshot-201.png'
+  // },
+  // {
+  //     nome: 'Erik',
+  //     url: 'https://i.pinimg.com/originals/e3/db/38/e3db3867fe6ea9484ca7c2ec599ddb2b.jpg'
+  // },
+  // {
+  //     nome: 'Gretzel',
+  //     url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMtVfgiKNu0Rm4TVZfEGO1-DeN4mxiaeUG_Lh7UHv1Fw&s'
+  // },
+  // {
+  //     nome: 'Eduardo',
+  //     url: 'https://www.gatogeek.com.br/cdn/shop/products/urso-cabecudinho-pelucia-engracada-pelucia-gatogeek-990691.jpg?v=1683867912'
+  // },
+  // {
+  //     nome: 'RuiRui',
+  //     url: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/4a/aa/d4/4aaad43e-7835-d5d1-2640-1aaba9b1af2f/0.jpg/800x800cc.jpg'
+  // }
+  {
+    nome: "bearlyKKK",
+    url: user2,
+  },
+  {
+    nome: "ruirui",
+    url: user1,
+  },
+  {
+    nome: "catJun",
+    url: user3,
+  },
+  {
+    nome: "gret_flor",
+    url: user4,
+  },
+  {
+    nome: "dudu_auau",
+    url: user6,
+  },
+  {
+    nome: "gabs_",
+    url: user5,
+  },
+  {
+    nome: "rogerio",
+    url: user7,
+  },
 ];
+
 export default function Stories() {
-    return (
-        <div className="Stories">
-            {
-            listaUsuario.map((usuario, index) => {
-                return <Story key={index} caminhoDaImagem={usuario.url} nomeUsuario={usuario.nome} />
-            })
-            }
-        </div>
-    )
+  return (
+    <div className="Stories">
+      {listaUsuario.map((usuario, index) => {
+        return (
+          <Story
+            key={index}
+            caminhoDaImagem={usuario.url}
+            nomeUsuario={usuario.nome}
+          />
+        );
+      })}
+    </div>
+  );
 }
